@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonIcon" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconPadding">0dp</item>
+        <item name="iconTint">@color/white</item>
+        <item name="rippleColor">@color/light_white_30</item>
+    </style>
+    <style name="SeekBarCustom" parent="Widget.AppCompat.SeekBar">
+        <item name="colorAccent">@color/white</item>
+        <item name="cardBackgroundColor">@color/light_gray</item>
+        <item name="sliderStyle">@style/Widget.Material3.Slider</item>
+    </style>
+</resources>
